@@ -1,10 +1,14 @@
-# #100DaysOfCode Log - Round 1 - [Your Name Here]
+# #100DaysOfCode Log - Round 1 - Anja Thiart
 
-The log of my #100DaysOfCode challenge. Started on [July 17, Monday, 2017].
+The log of my #100DaysOfCode challenge. Started on 2 August 2020
+
+## Initial goal
+I want to complete CS50 Web, the follow up to CS50 Computer Science. 
+In parrallel to the above, I want to develop my personal website and incorporate my projects from the course, as well as the preceding course, as I go along.
 
 ## Log
 
 ### R1D1 
-Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API http://www.example.com
+
 
 ### R1D2
