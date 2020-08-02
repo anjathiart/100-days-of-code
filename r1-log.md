@@ -9,6 +9,6 @@ In parrallel to the above, I want to develop my personal website and incorporate
 ## Log
 
 ### R1D1 
-My first day. I created this repo. I updated the last project I worked on's repo (called Taper Journey) and found the video I made demonstrating it and added that to the repo.
+My first day. I created this repo. I updated the last project I worked on's repo (called Taper Journey) and found the video I made demonstrating it and added that to the repo. Also pushed psets from that course (CS50 Intro...) to a private repo.
 
 ### R1D2
