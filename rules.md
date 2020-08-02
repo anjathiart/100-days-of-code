@@ -4,9 +4,20 @@
 ### *I will code for at least an hour every day for the next 100 days.*
 
 #### Start Date
-June 25th, 2016. [PUT YOUR DATE HERE]
+August 2nd, 2020
 
-## Additional Rules
+## My Rules
+To make this work for me on a personal level, I will be altering some of the rules below. I have not deleted any rules but will highlight the ones I will not follow strictly in a colour.
+
+1. If I code at work, that time won't count towards the challenge.
+2. I will push code to GitHub every day so that anyone can see my progress.
+3. I will update the (Log)[log.md] with the day's progress and provide a link so that others can see my progress.
+4. I will work on real projects, but including projects that form part of proper courses, such as CS50 Web (for round 1) since these are not tutorial projects but real personal projects done within the project brief outlines and will form part of the bigger project of a complete personal portfolio.
+5. I will tweet regularly but not necessarily every day.
+
+## Original Rules (for reference)
+
+### Additional Rules
 1. I will tweet about my progress every day -> using the hashtag #100DaysOfCode
 2. If I code at work, that time won't count towards the challenge.
 3. I will push code to GitHub every day so that anyone can see my progress.
