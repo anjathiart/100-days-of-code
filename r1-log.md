@@ -19,3 +19,6 @@ I worked on project 0 on the image search and advanced search pages. I learnt th
 
 ### R1D4 - 20200805
 Today I completec coding up the google clone frontend. I was reminded that I often read over things too quickly, since on second reading over the project brief, they actually make it clear that the 'name' attributes become the query parameters. I have submitted the code to Submit50 but still need to make the video and fill the form.
+
+### R1D04 - 20200806
+Submitted the YouTube video of Project 0 and everything. I learnt how to timestamp youtube vids. I also watched the Python lecture. Was reminded of decorators and how I can see it functioning as middleware. Looks like we'll be using OOP as well which I need to touch up on.
