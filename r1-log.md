@@ -37,3 +37,6 @@ I have implemented the new entry creation as well as the edit views / templates 
 
 ### R1D10 - 20200811
 Lost track of time playing around with python regEx syntax in an attempt to write a markdown-to-html parser. I finished all the functionality of the wiki, including the random entry page and rendering the entry pages as HTML and not markdown (using the python markdown2 package). Now I'm intrigued by writing my own parser. The RE syntax and inner workings is baffling me, but after playing around for 3 hours (with a lot of hardcoding) I am closer to understanding it that I've ever been, even though I don't understand much at all. Keen to maybe polish off this project using Markdown2 package, and then start a new mini-side project to write my own markdown-to-html parser, as I can see this is going to be a rabbit hole.
+
+### R1D11 - 20200812
+Worked on Wiki project. Condensed some django view functions that didn't need to be separate, removed the markdown-parser I was playing with. Tweaked the styling slighly. Next I want to use a lamda function to filter out items of a sequence (array).
