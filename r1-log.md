@@ -40,3 +40,6 @@ Lost track of time playing around with python regEx syntax in an attempt to writ
 
 ### R1D11 - 20200812
 Worked on Wiki project. Condensed some django view functions that didn't need to be separate, removed the markdown-parser I was playing with. Tweaked the styling slighly. Next I want to use a lamda function to filter out items of a sequence (array).
+
+### R1D12 - 20200813
+I completed and submitted CS50W project 1: wiki.  I converted my search view to use filter-lambda function and also learnt how to do an inline if-else statement in python (I'm used to using terneray operators in JS). Brief video link here: https://www.youtube.com/watch?v=y9Ef_KkbobQ&feature=youtu.be.
