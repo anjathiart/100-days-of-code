@@ -43,3 +43,6 @@ Worked on Wiki project. Condensed some django view functions that didn't need to
 
 ### R1D12 - 20200813
 I completed and submitted CS50W project 1: wiki.  I converted my search view to use filter-lambda function and also learnt how to do an inline if-else statement in python (I'm used to using terneray operators in JS). Brief video link here: https://www.youtube.com/watch?v=y9Ef_KkbobQ&feature=youtu.be.
+
+### R1D13 - 20200814
+Watched CS50W leture 4: SQL, Models and Migrations. A lot of new things. I like this idea of models and how simple it is to interact with the data. I learnt that the reverse() function in Django is like redirect. It can take a field args="" in case there are parameters that the view function takes in. I learnt that the HTML/Django template also has access to the request that rendered it. Authentication and loggin in and out looks so easy using the Django libraries for it. I'm curious to see how middleware and so on fit in with Django, but I suppose that comes in with APIs. What defines something as an API anyway? The Django admin app to interact with the sqlite db is cool. I wonder how it works when using mysql instead. I learnt that Django comes with mysql out the box.
