@@ -52,3 +52,6 @@ Started planning out the next project, commerce. Its a simple e-commerce auction
 
 ### R1D15 - 20200816
 Filled out more of the django models for commerce project. I also started writing the HTML templates. All new to me so I'm learning as I go. I need to add some data so that I can test my views, models and pages. Will do that next before I carry on with the dev.
+
+### R1D16 - 20200817
+Worked on Commerce project. I am busy implementing the "new listing" page and am successfully capturing and displaying the latter. I still have to do proper validation. I've learnt that the user details is contained in the request object. I also setup the superuser and can now interact with my db data from the admin dashboard. I'm getting frustrated with the bootstrap classes messing with what I would expect. I will probably remove bootstrap later, but then I might go down a styling rabbit hole - which is not the aim of this particular project.
