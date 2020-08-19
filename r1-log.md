@@ -58,3 +58,7 @@ Worked on Commerce project. I am busy implementing the "new listing" page and am
 
 ### R1D17 - 20200818
 Worked on Commerce project by imnplementing the create_bid route and related django models. I'm slowly getting the hang of the latter, more like getting the hang of how to ask google for help effectively. I figured out that to update manyToMany fields one has to first get the object as a new object, then add the field, then save it again; you cannot use .update(). Didn't spend time on styling; I'm enjoying learning the django patterns / syntax.
+
+### R1D18 - 20200819
+I really didn't feel like doing this today, but eventually just started and here I am. Worked on commerce project. I'm working on the bids logic for a listing. I haven't done validation yet, but making a bid and retrieving the maximum bid of a listing is working. Also went in circles on how to model the Watchlist links, and decided in the end to create its own model. Spending a lot of time in the Django query docs. Enjoying it. Also learnt that splitting lines in python requires a '\' at the end. Small victories.
+
