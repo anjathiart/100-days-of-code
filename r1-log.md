@@ -64,3 +64,6 @@ I really didn't feel like doing this today, but eventually just started and here
 
 ### R1D19 - 20200820
 Worked on commerce project. Worked on watchlist view / url / models. Realised eventually that having a separate watchlist model was hacky and does not make much sense. Some things become very clear when you start implementing it. Django models are still abstract in my mind, and I forget that relating objects as foreign keys constructs that "link" for you in the background. I have a small bug with hitting "back" in the browser that came about where I redirect back to the same page that the watchlist form submission came from. Will look at that later.
+
+### R1D20 - 20200821
+Commerce Project: frustrating struggling with getting queries on manytomany fields of an object working, but eventually got somewhere (near the end). I've changed the watchlist logic successfully but that is a bit all. Still have some weird bugginess with the add / remove redirecting (mentioned some issues on previous day's commit). 
