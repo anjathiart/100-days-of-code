@@ -67,3 +67,6 @@ Worked on commerce project. Worked on watchlist view / url / models. Realised ev
 
 ### R1D20 - 20200821
 Commerce Project: frustrating struggling with getting queries on manytomany fields of an object working, but eventually got somewhere (near the end). I've changed the watchlist logic successfully but that is a bit all. Still have some weird bugginess with the add / remove redirecting (mentioned some issues on previous day's commit). 
+
+### R1D21 - 20200822
+Commerce project. I fixed small bugs with the watchlist route (view according to Django). I worked on the bidding logic for a listing (first bidder min value, >1 bid min value, place or accept bid based on who the user is). The "accept_bid" route still needs to be done. I also worked on adding comments to a listing. I have a lot of styling left to do but most of the logic is there.
