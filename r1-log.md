@@ -70,3 +70,6 @@ Commerce Project: frustrating struggling with getting queries on manytomany fiel
 
 ### R1D21 - 20200822
 Commerce project. I fixed small bugs with the watchlist route (view according to Django). I worked on the bidding logic for a listing (first bidder min value, >1 bid min value, place or accept bid based on who the user is). The "accept_bid" route still needs to be done. I also worked on adding comments to a listing. I have a lot of styling left to do but most of the logic is there.
+
+### R1D22 - 20200823
+Working on commerce project. Added a view for accepting a bid, and working on the categories implementation. My design for the latter is not great. I'm a bit frustrated as it feels like I'm trying to hammer everything together with the "nails" that I have, i.e. the little knowledge that I have. Instead, I know there are cleaner, less messy and more efficient ways to work with the django models. I will have to go over the documentation patiently before forming these kind of habits.
