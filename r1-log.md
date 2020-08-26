@@ -79,3 +79,7 @@ Working on commerce project. I think I made a breakthrough in understanding the 
 
 ### R1D24 - 20200825
 Commerce project. I moved the absorbed the filter view into the index view. I learnt how to pass dynamic query strins via the href tag. I also confirmed to myself today that python variables have function / program scope, but not block scope when it comes to if / for / while and so on. Useful to know. I realised I didn't think my index view through enough yet, as current price has to be added to the filtered results, and this requires an annotation on a reverse query (made using 'related_name'. But I have left these few things and got stuck into the styling. I'm using Sass. I have started on the index page making cards and the side nav showing categories. I am using https://javisperez.github.io/tailwindcolorshades/#/ to generate some shades of blue (my primary colour), and https://jsonformatter.org/css-to-sass to convert between css and sass where needed. Styling is a rabbit hole, but quite fun.
+
+### R1D25 - 20200826
+Felt exhausted today and almost skipped. Working on commerce project styling. Specifically styling the headernav, side nav, and listing cards. I made a small breakthrough with flex-box today. I'm forever struggling with justify-self. Learnt that you must use margin-left auto, or margin-right auto, instead. Hmm. I'm also organizing my sass styles in a way that is general so that it can be applied accross all pages.
+
