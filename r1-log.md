@@ -83,3 +83,5 @@ Commerce project. I moved the absorbed the filter view into the index view. I le
 ### R1D25 - 20200826
 Felt exhausted today and almost skipped. Working on commerce project styling. Specifically styling the headernav, side nav, and listing cards. I made a small breakthrough with flex-box today. I'm forever struggling with justify-self. Learnt that you must use margin-left auto, or margin-right auto, instead. Hmm. I'm also organizing my sass styles in a way that is general so that it can be applied accross all pages.
 
+### R1D26 - 20200827
+Commerce project. Worked today on styling the listing page with comments. Tweaking the layout and styling is very finnicky. Don't want to spend too much time doing it as this can become a time drain. Refactored my HTML and Sass style-nesting to make logical sense and I find doing the latter well helps one see how parent elemenents impact children. So it is quite important to spend some time thinking of how to structure the html and sass.
