@@ -85,3 +85,6 @@ Felt exhausted today and almost skipped. Working on commerce project styling. Sp
 
 ### R1D26 - 20200827
 Commerce project. Worked today on styling the listing page with comments. Tweaking the layout and styling is very finnicky. Don't want to spend too much time doing it as this can become a time drain. Refactored my HTML and Sass style-nesting to make logical sense and I find doing the latter well helps one see how parent elemenents impact children. So it is quite important to spend some time thinking of how to structure the html and sass.
+
+### R1D27 - 20200828
+Still on the commerce project and still styling the listing page. My html was becoming so nested and mangled, so too my sass file. Changed my mind on the layout and tweaking it constantly. Flex align-self / justify-self is not working for me. I need to read up a bit more about it. I think flex-stretch too. And perhaps it's time to start using css-grid. I've been avoiding it ever since, but flex-box now feels natural so I just need to get to the same point with grid.
