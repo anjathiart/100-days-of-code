@@ -88,3 +88,6 @@ Commerce project. Worked today on styling the listing page with comments. Tweaki
 
 ### R1D27 - 20200828
 Still on the commerce project and still styling the listing page. My html was becoming so nested and mangled, so too my sass file. Changed my mind on the layout and tweaking it constantly. Flex align-self / justify-self is not working for me. I need to read up a bit more about it. I think flex-stretch too. And perhaps it's time to start using css-grid. I've been avoiding it ever since, but flex-box now feels natural so I just need to get to the same point with grid.
+
+### R1D28 - 20200829
+Worked on styling and UI for the commerce projects. I untangled my html and refactored a lot of the sass and also realised that I have been using flexbox wrong for a long time. I though that align-items start is the same as the default and now I learnt that 'stretch' is the default and usually what you want. And I have been specifying align-items: start for a long time then trying to tweak the layout to fit that. And then margin-auto to align chldren works perfectly. 
