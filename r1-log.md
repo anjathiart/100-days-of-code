@@ -97,3 +97,6 @@ Working on Commerce project. I have updated the layout / styling on my login / r
 
 ### R1D30 - 20200831
 Working on Commerce project. I've learnt how to add query strings to a httpredirect with reverse(). I am now passing status code and message to the listing view when a bid is placed. The status message is then displayed in the template. I have moved validation of the bid value to the django view so that I can show this functionality. I've also tweaked the listing view, specifically how it determines the whether a user has a listing on their wathlist. For this I learnt about this .exist() extention on a django query. I also refactored the html a bit on the listing page.
+
+### R1D31 - 20200901
+Working on commerce project. I've updated some silly model field names and also learnt that blank=True allows a field to be blank in the amin panel (useful). I also added created_at fields for listins and bids and these are now displayed in the templates. I am working on refactoring the listing template. Accepting bids is also working again. I still need to think of how I want to alert a user if his/her bid was accepted. I am displaying a lot more information about bids on the listing page which is good.
