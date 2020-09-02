@@ -100,3 +100,6 @@ Working on Commerce project. I've learnt how to add query strings to a httpredir
 
 ### R1D31 - 20200901
 Working on commerce project. I've updated some silly model field names and also learnt that blank=True allows a field to be blank in the amin panel (useful). I also added created_at fields for listins and bids and these are now displayed in the templates. I am working on refactoring the listing template. Accepting bids is also working again. I still need to think of how I want to alert a user if his/her bid was accepted. I am displaying a lot more information about bids on the listing page which is good.
+
+### R1D32 - 20200902
+Working on commerce project. Worked on the listing page styling and html refactor. I've cleaned up the template to show the relavent information based on user priveledge, bid status and so on. I've learnt that Django templates ignore html comments. My CSS file is mangled due to changing the structure / layout. What is left is finalizing the CSS / UI and handling notifying a user if their bid has been accepted. I also need to spend some time adding example listings.
