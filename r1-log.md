@@ -103,3 +103,7 @@ Working on commerce project. I've updated some silly model field names and also 
 
 ### R1D32 - 20200902
 Working on commerce project. Worked on the listing page styling and html refactor. I've cleaned up the template to show the relavent information based on user priveledge, bid status and so on. I've learnt that Django templates ignore html comments. My CSS file is mangled due to changing the structure / layout. What is left is finalizing the CSS / UI and handling notifying a user if their bid has been accepted. I also need to spend some time adding example listings.
+
+### R1D33 - 20200903
+Commerce project. Decided to just use an extra page for users to see all the listings they have bid on and the status of their bid. Should probably show the ones that they have won first. Not using any javascript so I'm a bit limited in some ways with how responsive etc my page is. I've realised my django models are a bit messy and again considering if bids should be a child of listing as many to many, or if bids should have a listing as a foreign key (currently have the latter). The way I'm naming related names makes no sense to me, and it results in very hard to read code.
+
