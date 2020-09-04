@@ -107,3 +107,5 @@ Working on commerce project. Worked on the listing page styling and html refacto
 ### R1D33 - 20200903
 Commerce project. Decided to just use an extra page for users to see all the listings they have bid on and the status of their bid. Should probably show the ones that they have won first. Not using any javascript so I'm a bit limited in some ways with how responsive etc my page is. I've realised my django models are a bit messy and again considering if bids should be a child of listing as many to many, or if bids should have a listing as a foreign key (currently have the latter). The way I'm naming related names makes no sense to me, and it results in very hard to read code.
 
+### R1D34 - 20200904
+Commerce project. Worked on a bit of the frontend for the listing page and the page showing "your" bids and their status. Created new users and played around a bit. When I have a good enough intenret connection I'll create more listings so that I can do a demo video for hand in. I'm not satisfied with my backend as my models and views are not very pretty, even though it works for the purpose.
