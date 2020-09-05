@@ -109,3 +109,6 @@ Commerce project. Decided to just use an extra page for users to see all the lis
 
 ### R1D34 - 20200904
 Commerce project. Worked on a bit of the frontend for the listing page and the page showing "your" bids and their status. Created new users and played around a bit. When I have a good enough intenret connection I'll create more listings so that I can do a demo video for hand in. I'm not satisfied with my backend as my models and views are not very pretty, even though it works for the purpose.
+
+### R1D35 - 20200905
+Related to the commerce project. I started reading the Django model and query documentation. Might seem a bit late, but having context from problems I've run into thus far makes it more useful in a way. I got some tips on good convention with laying out one's models. I want to read further on this and then clean up my models and views. 
