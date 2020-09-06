@@ -112,3 +112,6 @@ Commerce project. Worked on a bit of the frontend for the listing page and the p
 
 ### R1D35 - 20200905
 Related to the commerce project. I started reading the Django model and query documentation. Might seem a bit late, but having context from problems I've run into thus far makes it more useful in a way. I got some tips on good convention with laying out one's models. I want to read further on this and then clean up my models and views. 
+
+### R1D36 - 20200906
+Commerce project is messy now. I have refactored my models and also rethought my related names. It makes more sense now when I do backward relationship queries. So even though I have broken everything, I'm understanding a bit better. I'm playing around and tweaking and it is taking long but I want to understand and it is engaging for now.
