@@ -115,3 +115,6 @@ Related to the commerce project. I started reading the Django model and query do
 
 ### R1D36 - 20200906
 Commerce project is messy now. I have refactored my models and also rethought my related names. It makes more sense now when I do backward relationship queries. So even though I have broken everything, I'm understanding a bit better. I'm playing around and tweaking and it is taking long but I want to understand and it is engaging for now.
+
+### R1D37 - 20200907
+Commerce project. Not messy anymore. It took less time than I thought to implement my model changes. Eveything is working well again now. What is left is adding listings data for demonstration purposes and final testing and style polising.
