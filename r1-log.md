@@ -118,3 +118,6 @@ Commerce project is messy now. I have refactored my models and also rethought my
 
 ### R1D37 - 20200907
 Commerce project. Not messy anymore. It took less time than I thought to implement my model changes. Eveything is working well again now. What is left is adding listings data for demonstration purposes and final testing and style polising.
+
+### R1D38 - 20200908
+Commerce project. Polished a few things like displaying messages on pages where there is no data available (like a category wihtout listings). Realised that bids and comments should propably not be manyToMany fields inside the listing model. Because, they are tied to one unique listing, and thus should rather be foreignKey relationships. So even though I thought I was doing good to refactor my models before, I was wrong. I added a lot of listing data via the admin panel. I then tried adding one via the 'create_new' page, and there are some bugs. The urls are not being captured properly by the form. I will look into this next.
