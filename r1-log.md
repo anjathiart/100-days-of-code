@@ -121,3 +121,6 @@ Commerce project. Not messy anymore. It took less time than I thought to impleme
 
 ### R1D38 - 20200908
 Commerce project. Polished a few things like displaying messages on pages where there is no data available (like a category wihtout listings). Realised that bids and comments should propably not be manyToMany fields inside the listing model. Because, they are tied to one unique listing, and thus should rather be foreignKey relationships. So even though I thought I was doing good to refactor my models before, I was wrong. I added a lot of listing data via the admin panel. I then tried adding one via the 'create_new' page, and there are some bugs. The urls are not being captured properly by the form. I will look into this next.
+
+### R1D39 - 20200909
+Commerce project. Found my "bug". I just wasn't assigning the imageUrl a value when creating the model instance. Oops. I've added some simple built in front end validation. I also added some backend logic for empty comments. Added a few comments to the code. Fixed some style issues. Now I'm ready to do the demo and get to the next project.
