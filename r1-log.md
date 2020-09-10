@@ -124,3 +124,10 @@ Commerce project. Polished a few things like displaying messages on pages where 
 
 ### R1D39 - 20200909
 Commerce project. Found my "bug". I just wasn't assigning the imageUrl a value when creating the model instance. Oops. I've added some simple built in front end validation. I also added some backend logic for empty comments. Added a few comments to the code. Fixed some style issues. Now I'm ready to do the demo and get to the next project.
+
+### R1D40 - 20200910
+CS50W Module Javascript. A few things that I learnt:
+- dataset property of an element. For example data-color="green" can be accessed via element.dataset.color.
+- submit inputs have a disabled property.
+- Event listener DOMContentLoaded... I have always used document.onload(...)
+- toFix(decimal) to round a float to 'decimal' decimal places (instead of Math.round(...) etc.
