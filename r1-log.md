@@ -131,3 +131,10 @@ CS50W Module Javascript. A few things that I learnt:
 - submit inputs have a disabled property.
 - Event listener DOMContentLoaded... I have always used document.onload(...)
 - toFix(decimal) to round a float to 'decimal' decimal places (instead of Math.round(...) etc.
+
+### R1D41 - 20200911
+CS50W Module User interfaces. This was a good overview of DOM events and dom manipulation. I've always avoided CSS animations; I should really try incorporate it into the next few projects. To me it just isn't necessary and over the top, but the example he showed of show / hiding posts and using animations to improve the user experience was cool. So I want to get to a point where I feel comfortable with animations (and CSS Grid for that matter) as I do now with flexbox. React (via cdn) was also touched on. It's nice to have a simple introduction to how it fits in on a low level, and also I guess now I have seen JSX. 
+
+Even though not required, I will make an effort to include in my following projects:
+- Some animations that have purpose other than looking cool
+- React where it makes sense
