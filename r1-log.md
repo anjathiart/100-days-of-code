@@ -138,3 +138,9 @@ CS50W Module User interfaces. This was a good overview of DOM events and dom man
 Even though not required, I will make an effort to include in my following projects:
 - Some animations that have purpose other than looking cool
 - React where it makes sense
+
+### R1D42 - 20200912
+CS50W Commerce project. Polished a bit and fixed some bugs with unauthenticated users and views / pages / template tweaks for them. Did the screen recording of the project. 
+Video link: https://youtu.be/71YrEOlvQRU
+Repo linke: https://github.com/anjathiart/commerce
+
