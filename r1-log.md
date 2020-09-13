@@ -141,6 +141,9 @@ Even though not required, I will make an effort to include in my following proje
 
 ### R1D42 - 20200912
 CS50W Commerce project. Polished a bit and fixed some bugs with unauthenticated users and views / pages / template tweaks for them. Did the screen recording of the project. 
-Video link: https://youtu.be/71YrEOlvQRU
-Repo linke: https://github.com/anjathiart/commerce
+- Video link: https://youtu.be/71YrEOlvQRU
+- Repo linke: https://github.com/anjathiart/commerce
 
+### R1D43 - 20200913
+Started CS50W 2020 Project 3: Mail. *Design a front-end for an email client that makes API calls to send and receive emails.*
+I familiarised myself with the app structure and started working on the compose new mail logic. I was losing my log data in dev-tools when ever the page reload was triggered. This might be trivial but it's good to know I can change the settings for the dev-console to 'preserve-log'. 
