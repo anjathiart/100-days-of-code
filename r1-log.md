@@ -146,4 +146,7 @@ CS50W Commerce project. Polished a bit and fixed some bugs with unauthenticated 
 
 ### R1D43 - 20200913
 Started CS50W 2020 Project 3: Mail. *Design a front-end for an email client that makes API calls to send and receive emails.*
-I familiarised myself with the app structure and started working on the compose new mail logic. I was losing my log data in dev-tools when ever the page reload was triggered. This might be trivial but it's good to know I can change the settings for the dev-console to 'preserve-log'. 
+I familiarised myself with the app structure and started working on the compose new mail logic. I was losing my log data in dev-tools when ever the page reload was triggered. This might be trivial but it's good to know I can change the settings for the dev-console to 'preserve-log'.
+
+### R1D44 - 20200914
+Mail Project. I struggled a bit to get the React JSX script working but eventually found a way and am now rendering react components on my page. Email cards are rendered to show the list of emails in each mailbox. Learnt that JSX uses 'className' instead of 'class' - but the warnings / error reporting in the dev-console is really very specific which helps.
