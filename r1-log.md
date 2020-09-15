@@ -150,3 +150,6 @@ I familiarised myself with the app structure and started working on the compose 
 
 ### R1D44 - 20200914
 Mail Project. I struggled a bit to get the React JSX script working but eventually found a way and am now rendering react components on my page. Email cards are rendered to show the list of emails in each mailbox. Learnt that JSX uses 'className' instead of 'class' - but the warnings / error reporting in the dev-console is really very specific which helps.
+
+### R1D45 - 20200915
+Mail Project. I created another react component for reading an email. I also attached some logic to archive and un-archive emails and it all works quite nicely once it's set up. Need to do some DOM cleanup though and am thinking of the "clean" way to keep track of the 'ReactDOM'. I'm using JSX which is different to Vue SFC's that I'm used to. 
