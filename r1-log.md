@@ -153,3 +153,11 @@ Mail Project. I struggled a bit to get the React JSX script working but eventual
 
 ### R1D45 - 20200915
 Mail Project. I created another react component for reading an email. I also attached some logic to archive and un-archive emails and it all works quite nicely once it's set up. Need to do some DOM cleanup though and am thinking of the "clean" way to keep track of the 'ReactDOM'. I'm using JSX which is different to Vue SFC's that I'm used to. 
+
+### R1D46 - 20200916
+Mail Project. Added some state and methods to the read-mail component and implemented the reply UI and functionality. All styling still to be done.
+- Life is much easier with the sublime 'Babel' and 'Babel-snippets' package for babel react JSX syntax highlighting
+- Was reminded of `white-space: pre-wrap;` for conserving line breaks etc
+- Learnt that to comment within React code-stuff that comments must be wrapped in curly braces as well: `{ // comment }`
+- Added some onClick handlers within the React components to trigger methods previously fired with document.eventlisteners.
+
