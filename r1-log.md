@@ -161,3 +161,13 @@ Mail Project. Added some state and methods to the read-mail component and implem
 - Learnt that to comment within React code-stuff that comments must be wrapped in curly braces as well: `{ // comment }`
 - Added some onClick handlers within the React components to trigger methods previously fired with document.eventlisteners.
 
+### R1D47 - 20200917
+Mail Project. Went over all the requirements step by step tweaking where necessary.
+Learnt:
+- How to conditionally render an element wihtin the React render function. Basically wherever you want to use JS just use curly braces and treat html as 'deconstructed' variables
+- Had an issue passing a function to an eventlistener. Bugs came up because this function I passed in can take an optional argument:
+`document.querySelector('#compose').addEventListener('click', () => compose_email());`
+vs
+	`document.querySelector('#sendMail').addEventListener('click', send_email);`
+... So good idea to read up on functional programming and how this workds under the hood
+
