@@ -171,3 +171,5 @@ vs
 	`document.querySelector('#sendMail').addEventListener('click', send_email);`
 ... So good idea to read up on functional programming and how this workds under the hood
 
+### R1D48 - 20200918
+Mail Project. Spent over 2 hours displaying and animating a simple message based on a response. Not using async/await, so using timeout fumctions to time animations / next function execution etc. Not used to it and sat and fiddled for such a long time. ALso keeping up with which elements to show / hide based on x, y, z is dirty. Should just learn  how React components can be animated outright, but doing it with vanilla first.; have avoided animations (in general) for long.
