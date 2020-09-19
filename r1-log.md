@@ -173,3 +173,6 @@ vs
 
 ### R1D48 - 20200918
 Mail Project. Spent over 2 hours displaying and animating a simple message based on a response. Not using async/await, so using timeout fumctions to time animations / next function execution etc. Not used to it and sat and fiddled for such a long time. ALso keeping up with which elements to show / hide based on x, y, z is dirty. Should just learn  how React components can be animated outright, but doing it with vanilla first.; have avoided animations (in general) for long.
+
+### R1D49 - 20200919
+Mail Project. Polishing, styling tweaks and code clean up. Next I need to add some accounts to generate some email content etc.
