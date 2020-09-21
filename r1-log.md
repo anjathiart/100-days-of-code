@@ -181,3 +181,8 @@ Mail Project. Polishing, styling tweaks and code clean up. Next I need to add so
 Watched CS50 Web 2020 lecture on Testing and CI/CD. Unit testing functions, server request / responses, models and also front end in-browser testing. Learnt a bit about github actions.
 - Would like to know how to use github actions where one repo is dependent on another repo
  Also short intro to Docker. Not sure how I will use all of this in final project. CD - continuous delivery and / or continuous deployment.
+ 
+### R1D51 - 20200921
+Finished Mail project. Recorded screen cast and submitted
+- Link to demo video: https://youtu.be/B9a-E1Lf67s
+- Link to repo: 
