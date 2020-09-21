@@ -185,4 +185,4 @@ Watched CS50 Web 2020 lecture on Testing and CI/CD. Unit testing functions, serv
 ### R1D51 - 20200921
 Finished Mail project. Recorded screen cast and submitted
 - Link to demo video: https://youtu.be/B9a-E1Lf67s
-- Link to repo: 
+- Link to repo: https://github.com/anjathiart/mail
