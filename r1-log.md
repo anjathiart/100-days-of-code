@@ -186,3 +186,6 @@ Watched CS50 Web 2020 lecture on Testing and CI/CD. Unit testing functions, serv
 Finished Mail project. Recorded screen cast and submitted
 - Link to demo video: https://youtu.be/B9a-E1Lf67s
 - Link to repo: https://github.com/anjathiart/mail
+
+## R1D52 - 20200922
+Started the final module and covered the first half: Scalability. Nice to have a simplified overview of it. Loadbalancing, multiple servers, database splitting and database replication, and caching (client and / or server side). Also started brainstorming my final project idea: An english vocab builder app (inspired by the vocab builder on my Kindle). Pitty Kindle does not have an API, so won't be able to pull existing data from that.
