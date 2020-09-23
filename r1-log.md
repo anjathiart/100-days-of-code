@@ -189,3 +189,12 @@ Finished Mail project. Recorded screen cast and submitted
 
 ## R1D52 - 20200922
 Started the final module and covered the first half: Scalability. Nice to have a simplified overview of it. Loadbalancing, multiple servers, database splitting and database replication, and caching (client and / or server side). Also started brainstorming my final project idea: An english vocab builder app (inspired by the vocab builder on my Kindle). Pitty Kindle does not have an API, so won't be able to pull existing data from that.
+
+## R1D53 - 20200923
+Finishing final lecture, part 2: Security.
+- How does public-private key encryption work? It is explained at a high level but not in detail.
+- GIT: always destroy commits where credentials / sensitive info were exposed accidentally
+- Learn more about environment variables and how to use them for secrets / keys / etc
+- Cross-site request forgery: django csrf token takes care of this
+
+
