@@ -197,4 +197,6 @@ Finishing final lecture, part 2: Security.
 - Learn more about environment variables and how to use them for secrets / keys / etc
 - Cross-site request forgery: django csrf token takes care of this
 
+Started setting up and looking at CS50W 2020 Project 4: Network
+
 
