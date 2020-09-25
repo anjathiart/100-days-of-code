@@ -200,4 +200,7 @@ Finishing final lecture, part 2: Security.
 Started setting up and looking at CS50W 2020 Project 4: Network
 
 ## R1D54 - 20200924
-Network project. Started setting up my models / url and view structure. Successfully loading posts through the api routes into frontent via JS. 
+Network project. Started setting up my models / url and view structure. Successfully loading posts through the api routes into frontent via JS.
+
+## R1D55 - 20200925
+Network project. Updated models. Added api endpoint to fetch current user in the jsx. Converted posts and post list to react components and added jsx for rendering it. 
