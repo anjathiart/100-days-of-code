@@ -204,3 +204,6 @@ Network project. Started setting up my models / url and view structure. Successf
 
 ## R1D55 - 20200925
 Network project. Updated models. Added api endpoint to fetch current user in the jsx. Converted posts and post list to react components and added jsx for rendering it. 
+
+## R1D56 - 20200926
+Network project. I learnt how to pass arguments etc to 'event handler functions' within the REACT render function. Had to include the jsCookies module CDN to get / pass the csrf token to and forth. 
