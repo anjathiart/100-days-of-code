@@ -206,4 +206,7 @@ Network project. Started setting up my models / url and view structure. Successf
 Network project. Updated models. Added api endpoint to fetch current user in the jsx. Converted posts and post list to react components and added jsx for rendering it. 
 
 ## R1D56 - 20200926
-Network project. I learnt how to pass arguments etc to 'event handler functions' within the REACT render function. Had to include the jsCookies module CDN to get / pass the csrf token to and forth. 
+Network project. I learnt how to pass arguments etc to 'event handler functions' within the REACT render function. Had to include the jsCookies module CDN to get / pass the csrf token to and forth.
+
+## R1D57 - 20200927
+Network project. Worked on JS and views for connecting like / unlike to api and loading a user's profile and posts for that user. Spent a lot of time thinking and going back and forth with how best to design the api calls. How to separate concerns, and what to separate or what to combine. 
