@@ -209,4 +209,8 @@ Network project. Updated models. Added api endpoint to fetch current user in the
 Network project. I learnt how to pass arguments etc to 'event handler functions' within the REACT render function. Had to include the jsCookies module CDN to get / pass the csrf token to and forth.
 
 ## R1D57 - 20200927
-Network project. Worked on JS and views for connecting like / unlike to api and loading a user's profile and posts for that user. Spent a lot of time thinking and going back and forth with how best to design the api calls. How to separate concerns, and what to separate or what to combine. 
+Network project. Worked on JS and views for connecting like / unlike to api and loading a user's profile and posts for that user. Spent a lot of time thinking and going back and forth with how best to design the api calls. How to separate concerns, and what to separate or what to combine.
+
+## R1D58 - 20200928
+Network project. Frustrating session. Spent a long time fixing a bug in all the wrong places. Only later realised that I had a bad reference in a manytomany field within the User model. Instead of ...manyToManyField(self..) I should have used ...manyToManyField("User"...). Good reminder not to glimpse over stackoverflow answers without understanding the exact context / relevance of the question first. I also battled with filtering on manyToMany fields, and in the end it was really simple, indicating that I'm not grasping the concepts 100%.
+
