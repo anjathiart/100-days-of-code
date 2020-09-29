@@ -214,3 +214,5 @@ Network project. Worked on JS and views for connecting like / unlike to api and 
 ## R1D58 - 20200928
 Network project. Frustrating session. Spent a long time fixing a bug in all the wrong places. Only later realised that I had a bad reference in a manytomany field within the User model. Instead of ...manyToManyField(self..) I should have used ...manyToManyField("User"...). Good reminder not to glimpse over stackoverflow answers without understanding the exact context / relevance of the question first. I also battled with filtering on manyToMany fields, and in the end it was really simple, indicating that I'm not grasping the concepts 100%.
 
+## R1D59 - 20200929
+Network project. Much better session. Implemented capability to edit your post with checks for user scope and backend validation. Getting the hang of the react render and how to do two-way binding. Am using `value={ x }` and `onChange={ e => x = e.target.value }` vibes. Didn't search long but didn't see a `v-model` equivilant. 
