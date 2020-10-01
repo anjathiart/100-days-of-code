@@ -220,3 +220,5 @@ Network project. Much better session. Implemented capability to edit your post w
 ## R1D60 - 20200930
 Network project. Fixed some DOM logic and implemented the view for seeing posts of users one follows. Keeping track of some state as global variables (for example the heading based on the current view. Keen to see how routing and state is managed when using a vue-cli-type react cli. I want to split the posts endpoints up further and not use query params to determine what to serve because the query params currently cannot be processed concurrently (separation of concerns).
 
+## R1D61 - 20201001
+Network project. I refactored the posts endpoints based on R1D60's comments. Added logic for posting a new post (was doing it via admin panel before). I also fixed the way I get all the posts for users the current user followed using a single query to ensure chronological ordering. Need to test the api for routes being hit when user is logged in or not, implement pagination and then styling.
