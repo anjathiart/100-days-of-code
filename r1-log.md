@@ -222,3 +222,7 @@ Network project. Fixed some DOM logic and implemented the view for seeing posts 
 
 ## R1D61 - 20201001
 Network project. I refactored the posts endpoints based on R1D60's comments. Added logic for posting a new post (was doing it via admin panel before). I also fixed the way I get all the posts for users the current user followed using a single query to ensure chronological ordering. Need to test the api for routes being hit when user is logged in or not, implement pagination and then styling.
+
+## R1D62 - 20201002
+Network project. Just working on styling right now. Using SASS and the bootstrap defaults that came with the project start files. Think I should go look at the bootstrap offerings and try change things up a bit. Getting tired of the same btn btn-primary button on all my projects.
+
