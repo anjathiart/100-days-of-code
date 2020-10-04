@@ -226,5 +226,8 @@ Network project. I refactored the posts endpoints based on R1D60's comments. Add
 ## R1D62 - 20201002
 Network project. Just working on styling right now. Using SASS and the bootstrap defaults that came with the project start files. Think I should go look at the bootstrap offerings and try change things up a bit. Getting tired of the same btn btn-primary button on all my projects.
 
-## R1D63 - 20201002
+## R1D63 - 20201003
 Network project. Still working on UI/UX. Using a bit more of bootstrap utilities. But I find once you start with bootstrap the color scheme seems constraining. Also, couldn't find box-shadow utilities for it. So used this link for my cards: https://codemyui.com/awesome-box-shadow-effect-for-card-ui/. Need to still style the user profile section and then polish UI and add pagination, and write some tests to check the api scope is adhered to.
+
+## R1D64 - 20201004
+Network project. Implemented pagination on the back end using Django Paginator class. Busy implementing it in the UI. Learnt that you can use IIF's inside the React render function to loop and so keep the `this` binding for event handlers that call react component methods. 
