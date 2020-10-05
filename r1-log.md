@@ -231,3 +231,6 @@ Network project. Still working on UI/UX. Using a bit more of bootstrap utilities
 
 ## R1D64 - 20201004
 Network project. Implemented pagination on the back end using Django Paginator class. Busy implementing it in the UI. Learnt that you can use IIF's inside the React render function to loop and so keep the `this` binding for event handlers that call react component methods. 
+
+## R1D65 - 20201005
+Network project. Have used a combination of bootstrap 4 and django Paginator class to implement pagination as a React component. It is done. Also spent some time on further styling. I've learnt that customizing bootsrap theme colors requires installing it as a package and then using the SASS functionality it gives, so for now I'm just using their colours and overriding manually where I need. 
