@@ -245,3 +245,5 @@ Learnt how to:
 - use `pip install nose pinocchio django_nose` with some extra settings in settings.py for nice test output
 Really seeing the value of unit tests, as already found some hidden bugs.
 
+## R1D67 - 20201007
+Network Project. Spent some time today dealing with authentication vs forbidden etc. I've created a fetch wrapper function that intercepts the response and deals with error codes. All 401's get redirected to login. Django's `login_required` decorator was being buggy in that it returns 200 that redirect happened but the javascript code continues. Instead I am handling these cases differently. Which probably makes sense since these are api endpoints more than page views? Not sure. Next I must handle the other errors by possibly just mounting a 'alert' component in the view.
