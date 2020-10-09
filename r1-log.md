@@ -250,3 +250,6 @@ Network Project. Spent some time today dealing with authentication vs forbidden 
 
 ## R1D68 - 20201008
 Network project. Busy implementing the front end error message modal for request errors. 
+
+## R1D69 - 20201009
+Network project. Worked on polishing and styling.
