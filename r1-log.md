@@ -253,3 +253,6 @@ Network project. Busy implementing the front end error message modal for request
 
 ## R1D69 - 20201009
 Network project. Worked on polishing and styling.
+
+## R1D70 - 20201010
+Network project. Had issues with my error handling with a form element that was handled using fetch in the JS. Removed the form tag and now it behaves accordingly. I'm getting a strange error with React ` TypeError: Failed to fetch` even though the page works fine and behaves as expected. Leaving for now. I have some spaghetti in the JS, not as ETC and Orthognal as I'd like it to be. Next is writing unit tests and then on to next project where I will put more thought into the structure of my views and functions.
