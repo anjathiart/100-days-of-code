@@ -187,10 +187,10 @@ Finished Mail project. Recorded screen cast and submitted
 - Link to demo video: https://youtu.be/B9a-E1Lf67s
 - Link to repo: https://github.com/anjathiart/mail
 
-## R1D52 - 20200922
+### R1D52 - 20200922
 Started the final module and covered the first half: Scalability. Nice to have a simplified overview of it. Loadbalancing, multiple servers, database splitting and database replication, and caching (client and / or server side). Also started brainstorming my final project idea: An english vocab builder app (inspired by the vocab builder on my Kindle). Pitty Kindle does not have an API, so won't be able to pull existing data from that.
 
-## R1D53 - 20200923
+### R1D53 - 20200923
 Finishing final lecture, part 2: Security.
 - How does public-private key encryption work? It is explained at a high level but not in detail.
 - GIT: always destroy commits where credentials / sensitive info were exposed accidentally
@@ -199,43 +199,43 @@ Finishing final lecture, part 2: Security.
 
 Started setting up and looking at CS50W 2020 Project 4: Network
 
-## R1D54 - 20200924
+### R1D54 - 20200924
 Network project. Started setting up my models / url and view structure. Successfully loading posts through the api routes into frontent via JS.
 
-## R1D55 - 20200925
+### R1D55 - 20200925
 Network project. Updated models. Added api endpoint to fetch current user in the jsx. Converted posts and post list to react components and added jsx for rendering it. 
 
-## R1D56 - 20200926
+### R1D56 - 20200926
 Network project. I learnt how to pass arguments etc to 'event handler functions' within the REACT render function. Had to include the jsCookies module CDN to get / pass the csrf token to and forth.
 
-## R1D57 - 20200927
+### R1D57 - 20200927
 Network project. Worked on JS and views for connecting like / unlike to api and loading a user's profile and posts for that user. Spent a lot of time thinking and going back and forth with how best to design the api calls. How to separate concerns, and what to separate or what to combine.
 
-## R1D58 - 20200928
+### R1D58 - 20200928
 Network project. Frustrating session. Spent a long time fixing a bug in all the wrong places. Only later realised that I had a bad reference in a manytomany field within the User model. Instead of ...manyToManyField(self..) I should have used ...manyToManyField("User"...). Good reminder not to glimpse over stackoverflow answers without understanding the exact context / relevance of the question first. I also battled with filtering on manyToMany fields, and in the end it was really simple, indicating that I'm not grasping the concepts 100%.
 
-## R1D59 - 20200929
+### R1D59 - 20200929
 Network project. Much better session. Implemented capability to edit your post with checks for user scope and backend validation. Getting the hang of the react render and how to do two-way binding. Am using `value={ x }` and `onChange={ e => x = e.target.value }` vibes. Didn't search long but didn't see a `v-model` equivilant.
 
-## R1D60 - 20200930
+### R1D60 - 20200930
 Network project. Fixed some DOM logic and implemented the view for seeing posts of users one follows. Keeping track of some state as global variables (for example the heading based on the current view. Keen to see how routing and state is managed when using a vue-cli-type react cli. I want to split the posts endpoints up further and not use query params to determine what to serve because the query params currently cannot be processed concurrently (separation of concerns).
 
-## R1D61 - 20201001
+### R1D61 - 20201001
 Network project. I refactored the posts endpoints based on R1D60's comments. Added logic for posting a new post (was doing it via admin panel before). I also fixed the way I get all the posts for users the current user followed using a single query to ensure chronological ordering. Need to test the api for routes being hit when user is logged in or not, implement pagination and then styling.
 
-## R1D62 - 20201002
+### R1D62 - 20201002
 Network project. Just working on styling right now. Using SASS and the bootstrap defaults that came with the project start files. Think I should go look at the bootstrap offerings and try change things up a bit. Getting tired of the same btn btn-primary button on all my projects.
 
-## R1D63 - 20201003
+### R1D63 - 20201003
 Network project. Still working on UI/UX. Using a bit more of bootstrap utilities. But I find once you start with bootstrap the color scheme seems constraining. Also, couldn't find box-shadow utilities for it. So used this link for my cards: https://codemyui.com/awesome-box-shadow-effect-for-card-ui/. Need to still style the user profile section and then polish UI and add pagination, and write some tests to check the api scope is adhered to.
 
-## R1D64 - 20201004
+### R1D64 - 20201004
 Network project. Implemented pagination on the back end using Django Paginator class. Busy implementing it in the UI. Learnt that you can use IIF's inside the React render function to loop and so keep the `this` binding for event handlers that call react component methods. 
 
-## R1D65 - 20201005
+### R1D65 - 20201005
 Network project. Have used a combination of bootstrap 4 and django Paginator class to implement pagination as a React component. It is done. Also spent some time on further styling. I've learnt that customizing bootsrap theme colors requires installing it as a package and then using the SASS functionality it gives, so for now I'm just using their colours and overriding manually where I need.
 
-## R1D66 - 20201006
+### R1D66 - 20201006
 Network project. Writing unit tests. I've created one simple test to check that unauthorised actions can't be performed when editing posts.
 Learnt how to:
 - setup the test file and write a basic test
@@ -245,19 +245,21 @@ Learnt how to:
 - use `pip install nose pinocchio django_nose` with some extra settings in settings.py for nice test output
 Really seeing the value of unit tests, as already found some hidden bugs.
 
-## R1D67 - 20201007
+### R1D67 - 20201007
 Network Project. Spent some time today dealing with authentication vs forbidden etc. I've created a fetch wrapper function that intercepts the response and deals with error codes. All 401's get redirected to login. Django's `login_required` decorator was being buggy in that it returns 200 that redirect happened but the javascript code continues. Instead I am handling these cases differently. Which probably makes sense since these are api endpoints more than page views? Not sure. Next I must handle the other errors by possibly just mounting a 'alert' component in the view.
 
-## R1D68 - 20201008
+### R1D68 - 20201008
 Network project. Busy implementing the front end error message modal for request errors. 
 
-## R1D69 - 20201009
+### R1D69 - 20201009
 Network project. Worked on polishing and styling.
 
-## R1D70 - 20201010
+### R1D70 - 20201010
 Network project. Had issues with my error handling with a form element that was handled using fetch in the JS. Removed the form tag and now it behaves accordingly. I'm getting a strange error with React ` TypeError: Failed to fetch` even though the page works fine and behaves as expected. Leaving for now. I have some spaghetti in the JS, not as ETC and Orthognal as I'd like it to be. Next is writing unit tests and then on to next project where I will put more thought into the structure of my views and functions.
 
-## R1D71 - 20201011
+### R1D71 - 20201011
 Network project. Wrote some more unit tests to check api-endpoints which require authentication and ironed out some small things. 
 
+### R1D72 - 20201012
+Lingui learn app. Started playing with the worknik and oxford dictionaries api's. Preferring Oxford for now. But will use randomWord endpoint from wordnik. At a loss of where to start as I don't just want to jump in. But I setup the django-app structure so long.
 
