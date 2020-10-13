@@ -263,3 +263,5 @@ Network project. Wrote some more unit tests to check api-endpoints which require
 ### R1D72 - 20201012
 Lingui learn app. Started playing with the worknik and oxford dictionaries api's. Preferring Oxford for now. But will use randomWord endpoint from wordnik. At a loss of where to start as I don't just want to jump in. But I setup the django-app structure so long.
 
+### R1D73 - 20201013
+Lingui Learn app. Setup some initial urls, views, templates and models. Had to fiddle with the settings file a bit. Realised today there is a button in sublime to convert spaced-indents to tabbed-indents (haha). 
