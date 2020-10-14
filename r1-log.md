@@ -265,3 +265,8 @@ Lingui learn app. Started playing with the worknik and oxford dictionaries api's
 
 ### R1D73 - 20201013
 Lingui Learn app. Setup some initial urls, views, templates and models. Had to fiddle with the settings file a bit. Realised today there is a button in sublime to convert spaced-indents to tabbed-indents (haha). 
+
+### R1D74 - 20201014
+Network project. Sorted out some last minute bugs. And submitted code and video for this project.
+- demo video: https://www.youtube.com/watch?v=P_QSEHIOCck
+- repo: https://github.com/anjathiart/network
