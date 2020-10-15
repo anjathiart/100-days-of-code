@@ -272,4 +272,6 @@ Network project. Sorted out some last minute bugs. And submitted code and video 
 - repo: https://github.com/anjathiart/network
 
 ### R1D75 - 20201015
-Linguilearn. Playing with the django-frienship package to manage friend requests etc. Learning about better exception handling and use of the ctx object. So far I've hooked up adding a friend by username. 
+Linguilearn. Playing with the django-frienship package to manage friend requests etc.
+https://github.com/revsys/django-friendship
+Learning about better exception handling and use of the ctx object. So far I've hooked up adding a friend by username. 
