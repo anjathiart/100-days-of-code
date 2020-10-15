@@ -270,3 +270,6 @@ Lingui Learn app. Setup some initial urls, views, templates and models. Had to f
 Network project. Sorted out some last minute bugs. And submitted code and video for this project.
 - demo video: https://www.youtube.com/watch?v=P_QSEHIOCck
 - repo: https://github.com/anjathiart/network
+
+### R1D75 - 20201015
+Linguilearn. Playing with the django-frienship package to manage friend requests etc. Learning about better exception handling and use of the ctx object. So far I've hooked up adding a friend by username. 
