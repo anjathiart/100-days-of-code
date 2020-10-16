@@ -275,3 +275,6 @@ Network project. Sorted out some last minute bugs. And submitted code and video 
 Linguilearn. Playing with the django-frienship package to manage friend requests etc.
 https://github.com/revsys/django-friendship
 Learning about better exception handling and use of the ctx object. So far I've hooked up adding a friend by username. 
+
+### R1D75 - 20200116
+Liguilearn. Added more endpoints. Realizing that instead of writing js to test these I should just write unittests outright and not pollute my app. Struggling to get js modules in browser without webpack working. I'm sure it is possible. Trying solutions on the web but not succeeding.
