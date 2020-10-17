@@ -278,3 +278,11 @@ Learning about better exception handling and use of the ctx object. So far I've 
 
 ### R1D75 - 20200116
 Liguilearn. Added more endpoints. Realizing that instead of writing js to test these I should just write unittests outright and not pollute my app. Struggling to get js modules in browser without webpack working. I'm sure it is possible. Trying solutions on the web but not succeeding.
+
+### R1D76 - 20200117
+Linguilearn. Wrote unittests for sending / cancelling friend requests. Using `nose` for nice logging.
+Still learning:
+- Flag `-s` allows for displaying print statements using `Nose`
+- Seems like db updates done within one test does not get preserved in further tests.
+- how to use `assertContains` with JSONresponses. `assertIn` is fuzzy.
+- The json response string is accessed via `response.content`
