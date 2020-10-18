@@ -276,13 +276,16 @@ Linguilearn. Playing with the django-frienship package to manage friend requests
 https://github.com/revsys/django-friendship
 Learning about better exception handling and use of the ctx object. So far I've hooked up adding a friend by username. 
 
-### R1D75 - 20200116
+### R1D75 - 20201016
 Liguilearn. Added more endpoints. Realizing that instead of writing js to test these I should just write unittests outright and not pollute my app. Struggling to get js modules in browser without webpack working. I'm sure it is possible. Trying solutions on the web but not succeeding.
 
-### R1D76 - 20200117
+### R1D76 - 20201017
 Linguilearn. Wrote unittests for sending / cancelling friend requests. Using `nose` for nice logging.
 Still learning:
 - Flag `-s` allows for displaying print statements using `Nose`
 - Seems like db updates done within one test does not get preserved in further tests.
 - how to use `assertContains` with JSONresponses. `assertIn` is fuzzy.
 - The json response string is accessed via `response.content`
+
+### R1D77 - 20201018
+Linguilearn. Refactoting my views into a module structure with view files for auth, frienship etc. (routes so to speak). Learnt that I have to make use of this `__init__.py` file within the views folder to achieve this. Also learnt that in python / django package structure one you use `.`'s to show directory level. So, `.` or `..` (two up). `...` (three up). Added the accept friend view and unit test. Overiding django.shortcuts `get_object_or_404()` method used in the official django-friendship package as I don't want to deal with raised Http errors. Rather pass it via ctx and status.
