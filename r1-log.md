@@ -289,3 +289,6 @@ Still learning:
 
 ### R1D77 - 20201018
 Linguilearn. Refactoting my views into a module structure with view files for auth, frienship etc. (routes so to speak). Learnt that I have to make use of this `__init__.py` file within the views folder to achieve this. Also learnt that in python / django package structure one you use `.`'s to show directory level. So, `.` or `..` (two up). `...` (three up). Added the accept friend view and unit test. Overiding django.shortcuts `get_object_or_404()` method used in the official django-friendship package as I don't want to deal with raised Http errors. Rather pass it via ctx and status.
+
+### R1D78 - 20201019
+Linguilearn. Adding more views and unit tests. 
