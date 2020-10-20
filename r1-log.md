@@ -292,3 +292,9 @@ Linguilearn. Refactoting my views into a module structure with view files for au
 
 ### R1D78 - 20201019
 Linguilearn. Adding more views and unit tests. 
+
+### R1D79 - 20201020
+LinguiLearn. Learnt:
+- how to implement my own decorator function that checks for user authentication before processing request, and how to keep it in a separate module.
+- That the django object_or_404() method is unneccessary and just using try, catch instead so that can add custom status messages
+- how to use the django require_http_methods decorator to deal with 405 errors instead of repeating same check on every view
