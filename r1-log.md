@@ -299,9 +299,9 @@ LinguiLearn. Learnt:
 - That the django object_or_404() method is unneccessary and just using try, catch instead so that can add custom status messages
 - how to use the django require_http_methods decorator to deal with 405 errors instead of repeating same check on every view
 
-## R1D80 - 20201021
+### R1D80 - 20201021
 Linguilearn. Successfully hooked up the oxford dictionaries API to search for words (if they are 'head words')
 
-## R1D81 - 20201022
+### R1D81 - 20201022
 Linguilearn. Implemented extra layer to first hit oxford 'lemma' endpoint to find the head word of a word (for example if user types in a plural) before getting the word information. Looks like the free version of the API does not allow to look up sentence examples which is a let down. I now have functions that sit on a layer above the url endpoints in my api - so must decide how to structure it into modules.
 
