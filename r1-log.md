@@ -305,3 +305,8 @@ Linguilearn. Successfully hooked up the oxford dictionaries API to search for wo
 ### R1D81 - 20201022
 Linguilearn. Implemented extra layer to first hit oxford 'lemma' endpoint to find the head word of a word (for example if user types in a plural) before getting the word information. Looks like the free version of the API does not allow to look up sentence examples which is a let down. I now have functions that sit on a layer above the url endpoints in my api - so must decide how to structure it into modules.
 
+### R1D82 - 20201023
+Spent time setting up my dev environment again. Reading up on django model managers and custom model methods as I want to separate business logic out of the api layer. Read about services as a layer in between the api and the models. But I'm going to try make use of custom managers and querysets_as_managers. But I think this is the main thing that I was looking for:
+`Define custom methods on a model to add custom “row-level” functionality to your objects. Whereas Manager methods are intended to do “table-wide” things, model methods should act on a particular model instance.
+
+This is a valuable technique for keeping business logic in one place – the model.`
