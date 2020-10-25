@@ -310,3 +310,6 @@ Spent time setting up my dev environment again. Reading up on django model manag
 `Define custom methods on a model to add custom “row-level” functionality to your objects. Whereas Manager methods are intended to do “table-wide” things, model methods should act on a particular model instance.
 
 This is a valuable technique for keeping business logic in one place – the model.`
+
+### R1D83 - 20201025
+Linguilearn. Updated the word_search endpoint to have an extra step where the word is first looked for in the DB before hitting the Oxford API, and then saving it to the DB if a valid match is found. Also added a route for a user to add a word to their list. And added more unit tests.
