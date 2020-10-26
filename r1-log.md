@@ -313,3 +313,6 @@ This is a valuable technique for keeping business logic in one place – the mod
 
 ### R1D83 - 20201025
 Linguilearn. Updated the word_search endpoint to have an extra step where the word is first looked for in the DB before hitting the Oxford API, and then saving it to the DB if a valid match is found. Also added a route for a user to add a word to their list. And added more unit tests.
+
+### R1D84 - 20201026
+Linguilearn. Renamed some routes and models. Decided to append all api views with 'api/'. Added more endpoints for users managing their entries. Busy implementing much of this as model methods. Have not needed to implement managers yet. Wrote some unit tests. Next I want to write some exceptions to use in the models for error handling in the views.
