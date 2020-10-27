@@ -316,3 +316,6 @@ Linguilearn. Updated the word_search endpoint to have an extra step where the wo
 
 ### R1D84 - 20201026
 Linguilearn. Renamed some routes and models. Decided to append all api views with 'api/'. Added more endpoints for users managing their entries. Busy implementing much of this as model methods. Have not needed to implement managers yet. Wrote some unit tests. Next I want to write some exceptions to use in the models for error handling in the views.
+
+### R1D85 - 20201027
+Linguilearn. Defactored the oxford api calls into one function to simplify return values. Added custom exceptions to use in my models. Simplified and cleaned up code in the models and views. Still unsure if I'm breaking good practice by referencing another model type in a model method, instead of using a custom manager on the model. But since this is a 'per-row' method, I don't want to use a manager (?)
