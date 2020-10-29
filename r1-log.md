@@ -322,3 +322,10 @@ Linguilearn. Defactored the oxford api calls into one function to simplify retur
 
 ### R1D86 - 20201028
 Linguilearn. Hooked up a cool api "Words API". It gives a lot more detail on the free version, and one can hit the examples / definition / etc endpoints. I am still needing to use the oxford dict api to get the "base" word / "head" word in case of derived words being searched for by the user. Then I can send the word to the words api to get examples and definitions. The challenge now is that the result list returned by words api can be a long list, and the order is not necessarily from most relevant / literal to least. So I need to determine how I present the results to the user, and also how I represent the examples. It's also a lot to store in a local db if I don't want to always query the api services when a user reflects on saved words. But even if they choose the definition that suits their context best when the results is first presented, it would require models to store definitions, models to store examples, with links to determine which are linked to which, and then how to keep track of which user chose which definition / example for which word search. So for now I will just query the api everytime a user revisits a word. For this app use case.
+
+### R1D87 - 20201029
+Linguilearn. I decided I may want to design my models differently. Left Entry model as is and created a Word model with the word and also manyToMany fields with learning, mastered, and liked users respectively.
+
+Learnt how to:
+- Create a manager for my model to do some of the reworking for me and keep the views clean
+- Run a single test case within a test file `./manage.py test myapp.MyTestCase.test_something`
