@@ -329,3 +329,6 @@ Linguilearn. I decided I may want to design my models differently. Left Entry mo
 Learnt how to:
 - Create a manager for my model to do some of the reworking for me and keep the views clean
 - Run a single test case within a test file `./manage.py test myapp.MyTestCase.test_something`
+
+### R1D88 - 20201030
+Linguilearn. Added a route for searching for users based on email or username. Then moved to front end to implement searching for a user so that one can send friend requests. Restructured my secureFetch fn to return the parsed result object directly. Also playing with async/await and getting more comfortable with awaiting promises. Unlike previous projects where I call the next function within the .then() call, I am decoupling it so that the result is captured in a variable and the next step / fn is called outside the .then().catch() statements. I think this will be much cleaner, as before I had this long chain of dependency from one funtion, calling the next function within itself, then within the next calling the render function to populate the DOM.
