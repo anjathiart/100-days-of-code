@@ -338,3 +338,6 @@ Linguilearn. Working on the front end. Had to tweak my secureFetch / promise fun
 
 ### R1D90 - 20201102
 Linguilearn. You think you have something but then you realise far from it! But I worked a bit on the back end again. Realised I don't want to have such a full on friendship request / search / etc thing on the front end. This is more about the words and learning. So I'm going to change it that you just enter a friends email to invite them, and then let the response message deal with the cases of "already a friend", "request already sent", and so on. I will have to write further functions to calculate if a friend request was accepted or not and then filter that out of the resulting requests lists, in order to display the correct information on the user profile / notification section. Fun times.
+
+### R1D91 - 20201103
+Linguilearn. Decided that the users/friends endpoint will only return pending friendship requests and current friends of the user. Also decided that adding a friend is by entering an email and letting the backend response be shown as a success or error popup (for now). Keep changing things around. meh.
