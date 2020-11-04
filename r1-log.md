@@ -341,3 +341,6 @@ Linguilearn. You think you have something but then you realise far from it! But 
 
 ### R1D91 - 20201103
 Linguilearn. Decided that the users/friends endpoint will only return pending friendship requests and current friends of the user. Also decided that adding a friend is by entering an email and letting the backend response be shown as a success or error popup (for now). Keep changing things around. meh.
+
+### R1D92 - 20201104
+Linguilearn. Played around more with my endpoints for 1) getting the current user and 2) getting a user's profile information. Realising I need to design (wireframe / story board) the UI/UX properly as my api calls keep changing based on how I keep changing how I want the front end to look / function like. Realising the importance of this now, even for a small app like this!
