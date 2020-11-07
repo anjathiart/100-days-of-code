@@ -347,3 +347,6 @@ Linguilearn. Played around more with my endpoints for 1) getting the current use
 
 ### R1D93 - 20201106
 Linguilearn. Today was one of those 'aha' days. Refactoring my jsx to have one `ReactDom.render()` call to mount the whole front end. Similar to what we do in Vue at work. It is confusing since I'm writing all the code in a jsx script and not using singe file components, a store, router, ES6 module imports or webpack. This might get tricky down the line as the main view / pageView changes. And then I might have to have more than one render()'s. But I don't think so. What is not so great is that I will potentially be passing values up multiple level of parent-child components. Which might mean that I should at least, for now, render the error / msg modals outside the main #app. Learningn react this way, only using JSX, is making me understand a lot more about how things work, even though I still have some 'magic' happening (where things work but I'm just following documentation exmaples...). 
+
+### R1D94 - 20201107
+Linguilearn. Following from yesterday, have now separated all non `<App />` components into separate file, and util functions into its own file. Feels backwards doing this and not using module imports, but that is ok. Added some layout classes with layout debug styling to see how it all fits. 
