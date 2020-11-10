@@ -356,3 +356,11 @@ Linguilearn. Took a step back from coding and spent time brainstorming / buildin
 
 ### R1D96 - 20201110
 Research / proposals. No coding but busy putting together a spec with a friend with a small business to create a web presence for him. This will force me to learn a CMS framework and live deploy etc, which I have no experience with and been looking for a good opportunity to learn and get real-world experience.
+
+Also, this: Optional chaining and null coalescence coming in ES2020:
+```js
+//with optional chaining and null coalescing 
+const nullCoalescing = familyTree?.us?.children?.theirChildren ?? 'got no kids'
+console.log(nullCoalescing) //got no kids
+```
+https://www.freecodecamp.org/news/javascript-optional-chaining-explained/#:~:text=Optional%20chaining%2C%20represented%20by%20%3F.,of%20object%20properties%20in%20JavaScript.
