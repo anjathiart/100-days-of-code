@@ -359,6 +359,16 @@ Research / proposals. No coding but busy putting together a spec with a friend w
 
 Also, this: Optional chaining and null coalescence coming in ES2020:
 ```js
+let familyTree = {
+    us: {
+        children: {}
+    }
+}
+
+
+// with _.get
+const grandChildren = _.get(familyTree, 'us.children.theirChildren', 'got no kids' );
+
 //with optional chaining and null coalescing 
 const nullCoalescing = familyTree?.us?.children?.theirChildren ?? 'got no kids'
 console.log(nullCoalescing) //got no kids
