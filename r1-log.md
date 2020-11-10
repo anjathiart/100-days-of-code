@@ -365,7 +365,6 @@ let familyTree = {
     }
 }
 
-
 // with _.get
 const grandChildren = _.get(familyTree, 'us.children.theirChildren', 'got no kids' );
 
