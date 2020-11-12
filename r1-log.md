@@ -373,3 +373,15 @@ const nullCoalescing = familyTree?.us?.children?.theirChildren ?? 'got no kids'
 console.log(nullCoalescing) //got no kids
 ```
 https://www.freecodecamp.org/news/javascript-optional-chaining-explained/#:~:text=Optional%20chaining%2C%20represented%20by%20%3F.,of%20object%20properties%20in%20JavaScript.
+
+### R2D97 - 20201112
+Did some reading in `The Pragmatic Programmer`. Some highlights of the hour:
+- Which units to use when COMMUNICATING an estimated time that something may take (1-15 day? user days, 16-30 days? user weeks, ... and so on).
+- Customizing your shell (if it's going to be your home for a while, might as well make it comfortable) -> aliases, wrappers etc,
+- LEARN YOUR EDITOR CAPABILITIES
+	- Try spending 2 - 5 days coding in your editor(s) without touching the trackpad / mouse (except maybe when having to google how to do something without it)
+	- Pause when you realise you are doing something repeatedly and find out if you editor has a shortcut for this, and if it doesn't find a (good) plugin.
+- TRACER BULLET approach vs Prototyping (pros cons and when to use which)
+
+The last point is actually the one that I needed to learn today. I've slowed down in my project because I want to do it all at once, but I don't want it to end up being an prototype that I recode anyway (...because prototypes are meant to be discarded). So I'm going to try use this Tracer bullet approach to get myself back on track with Linguilearn. More details in The Pragmatic Programmer. I understand it as taking one feature / story / functionality, and implement it from UI -> API -> Logic -> Models -> Database, in a  way that it is usable, deployable, functional. And if it does not hit the 'target', you have one 'line' to trace back. 
+
