@@ -374,7 +374,7 @@ console.log(nullCoalescing) //got no kids
 ```
 https://www.freecodecamp.org/news/javascript-optional-chaining-explained/#:~:text=Optional%20chaining%2C%20represented%20by%20%3F.,of%20object%20properties%20in%20JavaScript.
 
-### R2D97 - 20201112
+### R1D97 - 20201112
 Did some reading in `The Pragmatic Programmer`. Some highlights of the hour:
 - Which units to use when COMMUNICATING an estimated time that something may take (1-15 day? user days, 16-30 days? user weeks, ... and so on).
 - Customizing your shell (if it's going to be your home for a while, might as well make it comfortable) -> aliases, wrappers etc,
