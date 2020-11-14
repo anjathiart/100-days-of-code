@@ -388,3 +388,8 @@ The last point is actually the one that I needed to learn today. I've slowed dow
 ### R1D98 - 20201113
 Linguilearn. Yesterday's reading paid off. I plucked out Trello, wrote some stories, organized each story into UI, API, Models, Tests, and listed the tasks to complete that story. And so quickly tracer bullet trajectories became clear, and refactoring a story to make it more explicit (adjusting the target?), and so I chose the main story of "User wants to lookup a word of interest".
 So just by trying out this stragegy, I feel a lot less overwhelmed, have a cleared understanding of the 'WHAT', and the how is emerging. I have my word search UI component, and next must link it to the api call (which I have already written and done some tests on)
+Also made use of https://colorhunt.co/palette/118962 for some quick colour schemes (temporary)
+
+### R1D99 - 20201114
+Linguilearn. Moving forward with yesterday's momentum. My api endpoints for searching and serving details is working. The UI shell is there for this component, but I havent made the `InputText` component reactive yet.
+Did a lot of refactoring and added an extra section to my tracer-bullet-style-trello-story-card, calling the `checklist` "sprouted questions" for now, to keep track of things I must consider / keep in mind / research / address... later, or in a different card. For now focusing on one trace.
