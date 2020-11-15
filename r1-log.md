@@ -393,3 +393,6 @@ Also made use of https://colorhunt.co/palette/118962 for some quick colour schem
 ### R1D99 - 20201114
 Linguilearn. Moving forward with yesterday's momentum. My api endpoints for searching and serving details is working. The UI shell is there for this component, but I havent made the `InputText` component reactive yet.
 Did a lot of refactoring and added an extra section to my tracer-bullet-style-trello-story-card, calling the `checklist` "sprouted questions" for now, to keep track of things I must consider / keep in mind / research / address... later, or in a different card. For now focusing on one trace.
+
+### R1D100 - 20201115
+Linguilearn. Search / View word. I have made the components reactive. Users can now search for a word and the results are displayed in a list. I am slowlyy understanding better how to use the render() function to add variables, run some loops, etc, and why / how. But just by trial and error. I'm in a good flow and things are coming together nicely. TRACER BULLETS ARE MY NEW BEST FRIEND.
