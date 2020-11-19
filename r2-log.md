@@ -8,6 +8,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D4 2020-11-19
+Linguilearn. Again, debuggin my API in the browser. Would be slightly less bad if I saved search results to local storage so that I wouldn't have to wait for WordAPI requests so long. Must. Write. Tests. Today I spent time on handling UI/UX/API for saving a new entry with details. Understanding the ...spread operator all of a sudden. And also learnt how to update a nested React state object. It feels like having to do things in a certain way to get things to update correctly is more clear using React Classes without all the other add-ons (like Vuex, Vue Router equivilants).
+
 ### R2D3 2020-11-18
 Linguilearn. Finding myself testing in the browser instead of just writing more tests :(
 Added error / warning message display to the UI and fixed related backend bugs. Need to read up more on python ValueErrors, because I'm using them, converting them to ints, and comparing but I don't know how to access the 'object' (is it an object?)
