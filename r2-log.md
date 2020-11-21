@@ -8,6 +8,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D6 2020-11-21
+Linguilearn. Worked on changing my table structure based on improvement ideas. Testing a lot in the browser (bad). Loads of debugging of models.
+
 ### R2D5 2020-11-20
 Did reading in The Pragmatic Programmer. Learnt some new concepts about debugging and problem solving. Also different methods of testing like Design By Contract (DBC). Even if not semantically implementable in my code, it is a good thing to know about when writing out function requirements in a way. 
 
