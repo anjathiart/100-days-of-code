@@ -9,6 +9,7 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 ## Log
 
 ### R2D5 2020-11-20
+Did reading in The Pragmatic Programmer. Learnt some new concepts about debugging and problem solving. Also different methods of testing like Design By Contract (DBC). Even if not semantically implementable in my code, it is a good thing to know about when writing out function requirements in a way. 
 
 ### R2D4 2020-11-19
 Linguilearn. Again, debuggin my API in the browser. Would be slightly less bad if I saved search results to local storage so that I wouldn't have to wait for WordAPI requests so long. Must. Write. Tests. Today I spent time on handling UI/UX/API for saving a new entry with details. Understanding the ...spread operator all of a sudden. And also learnt how to update a nested React state object. It feels like having to do things in a certain way to get things to update correctly is more clear using React Classes without all the other add-ons (like Vuex, Vue Router equivilants).
