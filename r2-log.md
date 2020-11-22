@@ -9,7 +9,7 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 ## Log
 
 ### R2D7 2020-11-22
-Linguilearn. Worked on retreiving and displaying a users library. Using the array map() function with JSX to spit out library entries as cards"
+Linguilearn. Worked on retreiving and displaying a users library. Using the array map() function with JSX to spit out library entries as cards". Learnt about reacts ComponentDidMount hook and used it.
 
 ### R2D6 2020-11-21
 Linguilearn. Worked on changing my table structure based on improvement ideas. Testing a lot in the browser (bad). Loads of debugging of models.
