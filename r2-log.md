@@ -8,6 +8,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D8 2020-11-23
+Linguilearn. Improved backend to save word entry details retrieved from external services to the word model. It has improved the performance of the app sooo much. User can now also view their library entries.
+
 ### R2D7 2020-11-22
 Linguilearn. Worked on retreiving and displaying a users library. Using the array map() function with JSX to spit out library entries as cards". Learnt about reacts ComponentDidMount hook and used it.
 
