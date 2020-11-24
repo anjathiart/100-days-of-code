@@ -8,6 +8,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D9 2020-11-24
+Linguilearn. Worked on my endpoints and models. Added Entry Model method to handle entry updates for any number of fields to be changed. Cleaned up some code.
+
 ### R2D8 2020-11-23
 Linguilearn. Improved backend to save word entry details retrieved from external services to the word model. It has improved the performance of the app sooo much. User can now also view their library entries.
 
