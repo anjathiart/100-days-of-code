@@ -4,6 +4,7 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 ## Initial goal
 - Finish LinguiLearn / LinguiLibrary project (final project for CS50 Web 2020
 - Create a business website for a small business I know
+- write a REST api for a shopping cart application
 - Venture into Tensor Flow / ML with Python
 
 ## Log
