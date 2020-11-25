@@ -9,7 +9,7 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 ## Log
 
 ### R2D10 2010-11-25
-Shopping Cart REST API. Spent time with the initial setup of a NodeJS Koa server. Server runs, requests hit but miss my 'ping' endpoint... 
+Shopping Cart REST API. Spent time with the initial setup of a NodeJS Koa server. Server runs, requests hit but miss my 'ping' endpoint... just fixed this by typing the koaRouter .get url in the 'hard' way instead of grabbing it from the config file. 
 
 ### R2D9 2020-11-24
 Linguilearn. Worked on my endpoints and models. Added Entry Model method to handle entry updates for any number of fields to be changed. Cleaned up some code.
