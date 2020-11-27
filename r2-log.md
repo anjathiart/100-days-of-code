@@ -9,7 +9,13 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
-### R2D10 2010-11-25
+### R2D11 2020-11-27
+Shopping cart REST API. Worked on the user register and auth routes, controls and models. Focussing on one route at a time, and once I've done all the middleware and schema definitions and validations for one, the rest should fit into that structure easily.
+
+### R2D10 2020-11-26
+Shopping cart Database. Created my initial database design, tables, and table structures. For now I haev a user, item and order table. I will probably add a few more to break down all the info about the item, but I don't want to spend time on focussing on all that and rather focus on the implementation of the customer shop cart "micro-service".
+
+### R2D10 2020-11-25
 Shopping Cart REST API. Spent time with the initial setup of a NodeJS Koa server. Server runs, requests hit but miss my 'ping' endpoint... just fixed this by typing the koaRouter .get url in the 'hard' way instead of grabbing it from the config file. 
 
 ### R2D9 2020-11-24
