@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D12 2020-11-28
+Shoppint cart REST API. Added more endpoints, tests, and middleware. Had to learn how to user Joi because hapi/joi has been deprecated. So there was a lot of debugging and so on. Specifically got basic authentication and authorization working now.
+
 ### R2D11 2020-11-27
 Shopping cart REST API. Worked on the user register and auth routes, controls and models. Focussing on one route at a time, and once I've done all the middleware and schema definitions and validations for one, the rest should fit into that structure easily.
 
