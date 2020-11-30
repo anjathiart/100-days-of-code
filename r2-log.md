@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D14 2020-11-30
+Shopping cart REST API. Finalized a table schema for my cart orders. It's not very robust. Kind of cauing issues. But I need to focus on a solution that works. Struggling to get my head around edge cases and the node-sql dialect to achieve certain things in one query instead of 3 (which I'm doing now for reserving / releasing stock). Wrote some unit tests and found some good bugs to fix.
+
 ### R2D13 2020-11-29
 Shopping cart REST API. Spent a lot of time breaking my head about how to populate my products table with sample data from the web. Ended up writing a few scripts to take sample data and transform it / add to it / convert it to my preferred structure. Then I worked on the GET products route. Have added searching. Still have to add filtering by price, category, inStock and then implement pagination.
 
