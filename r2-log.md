@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D15 2020-12-01
+Shopping cart REST API. Managed to refactor the stocklevel add/remove models to be safer. Had to use normal sql syntax since as I couldn't find a way to to it using node-sql. But that is not more important than an optimized query -- which still does not prevent edge cases but it's better than it was. Also added more endpoints, found some HUGE bugs, and finished up the brief api reference in the readme. Done for now. But I realised I wasn't updating the dates in the db when things are updated. oops.
+
 ### R2D14 2020-11-30
 Shopping cart REST API. Finalized a table schema for my cart orders. It's not very robust. Kind of cauing issues. But I need to focus on a solution that works. Struggling to get my head around edge cases and the node-sql dialect to achieve certain things in one query instead of 3 (which I'm doing now for reserving / releasing stock). Wrote some unit tests and found some good bugs to fix.
 
