@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R2D16 2020-12-02
+Linguilearn. Context switching. I have decided to leave out the django-friendship integration for now, even though I had spent a lot of time with implementing it. The main function of the app is to save cool words to reference and learn and just remember. So that is my MVP. Having the ability to add and follow friends is a feature for v2.
+
 ### R2D15 2020-12-01
 Shopping cart REST API. Managed to refactor the stocklevel add/remove models to be safer. Had to use normal sql syntax since as I couldn't find a way to to it using node-sql. But that is not more important than an optimized query -- which still does not prevent edge cases but it's better than it was. Also added more endpoints, found some HUGE bugs, and finished up the brief api reference in the readme. Done for now. But I realised I wasn't updating the dates in the db when things are updated. oops.
 
