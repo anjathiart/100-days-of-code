@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D17 2020-12-03
+Linguilearn. Worked at improving the UI by adding an endpoint to fetch 1 detailed entry when clicking on a library entry (which's endpoint now returns less information for each entry. Also fixed a bug or two.
+
 ### R2D16 2020-12-02
 Linguilearn. Context switching. I have decided to leave out the django-friendship integration for now, even though I had spent a lot of time with implementing it. The main function of the app is to save cool words to reference and learn and just remember. So that is my MVP. Having the ability to add and follow friends is a feature for v2.
 
