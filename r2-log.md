@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D18 2020-12-05
+Linguilearn. Spent time on the UI and cleaning up the layout, structure, and making it responsive. Things are working well on small screens now. Mixture of my own css and bootsrap.
+
 ### R1D17 2020-12-03
 Linguilearn. Worked at improving the UI by adding an endpoint to fetch 1 detailed entry when clicking on a library entry (which's endpoint now returns less information for each entry. Also fixed a bug or two.
 
