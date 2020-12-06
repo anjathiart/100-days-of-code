@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D19 2020-12-06
+Linguilearn. Worked on responsive Layout. I have a good layout now that changes nicely for different screen sizes. 
+
 ### R1D18 2020-12-05
 Linguilearn. Spent time on the UI and cleaning up the layout, structure, and making it responsive. Things are working well on small screens now. Mixture of my own css and bootsrap.
 
