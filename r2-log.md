@@ -8,6 +8,8 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 - Venture into Tensor Flow / ML with Python
 
 ## Log
+### R1D20 2020-12-07
+Linguilearn. Added in pagination in the api and frontend. I need to iron out some issues though with the page count etc going back to defaults re-mount
 
 ### R1D19 2020-12-06
 Linguilearn. Worked on responsive Layout. I have a good layout now that changes nicely for different screen sizes. 
