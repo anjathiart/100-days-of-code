@@ -8,6 +8,10 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 - Venture into Tensor Flow / ML with Python
 
 ## Log
+
+### R1D21 2020-12-08
+LinguiLearn. Refactored react components. But now it seems I have too much functionality in the main app component...
+
 ### R1D20 2020-12-07
 Linguilearn. Added in pagination in the api and frontend. I need to iron out some issues though with the page count etc going back to defaults re-mount
 
