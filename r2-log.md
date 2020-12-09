@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D22 2020-12-09
+Linguilearn. Styling, styling, feather icons, styling.
+
 ### R1D21 2020-12-08
 LinguiLearn. Refactored react components. But now it seems I have too much functionality in the main app component...
 
