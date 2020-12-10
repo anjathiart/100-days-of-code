@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D23 2020-12-10
+Linguilearn. Went back to the KanBan bourd to pen all the little loose ends that are outstanding. Implemented ordering and random shuffle on library model / endpoints and added it in on the UI. Front and back end needs to be linked now.
+
 ### R1D22 2020-12-09
 Linguilearn. Styling, styling, feather icons, styling.
 
