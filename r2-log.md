@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D24 2020-12-11
+Linguilearn. Added loading page while word info is searched for. Notes can now be written in markdown. Entries can be edited in the page. Improved flow and some responsive stuff as well.
+
 ### R1D23 2020-12-10
 Linguilearn. Went back to the KanBan bourd to pen all the little loose ends that are outstanding. Implemented ordering and random shuffle on library model / endpoints and added it in on the UI. Front and back end needs to be linked now.
 
