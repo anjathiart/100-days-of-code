@@ -9,6 +9,9 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D25 2020-12-12
+Linguilearn. Worked on responsive layout and wrote some tests. Also did the initial write up.
+
 ### R1D24 2020-12-11
 Linguilearn. Added loading page while word info is searched for. Notes can now be written in markdown. Entries can be edited in the page. Improved flow and some responsive stuff as well.
 
