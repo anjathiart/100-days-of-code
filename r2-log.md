@@ -9,6 +9,15 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D27 2020-12-14
+Linguilearn. Made the screen recording... but it was 3 minutes overtime. So I learnt how to use an online tool to cut out some of the content, and now I'm busy speeding it up to be just under 5mins. 
+
+Here is the link:
+https://youtu.be/B5PbrYoQnUA
+
+### R1D26 2020-12-13
+Liinguilearn. Redid my readme file adding more information and background for the project submission. Recorded almost 4 screencasts just to realize the microphone was switched off. 
+
 ### R1D25 2020-12-12
 Linguilearn. Worked on responsive layout and wrote some tests. Also did the initial write up.
 
