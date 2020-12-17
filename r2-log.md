@@ -9,6 +9,10 @@ The log of my #100DaysOfCode challenge. Started on 16 November 2020
 
 ## Log
 
+### R1D28 2020-12-15
+Wordpress website. Started getting familiar with wordpress. Realized its best to use the 2020 wordpress theme so that I can customize more of the style components (fonts etc). Registered the wordpress domain for the small business i'm doing this for. Using free version for now. Will port to local hosting with a ISP once I've finished the first draft.
+
+
 ### R1D27 2020-12-14
 Linguilearn. Made the screen recording... but it was 3 minutes overtime. So I learnt how to use an online tool to cut out some of the content, and now I'm busy speeding it up to be just under 5mins. 
 
